@@ -1,0 +1,148 @@
+body {
+    background-color: #333333;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+a, legend {
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+}
+
+.card {
+    background-color: #444444;
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 880px;
+    min-width: 478px;
+	height: 200px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    bottom: 0;
+	overflow: auto;
+	animation: anim 2s;
+}
+
+@keyframes anim { 
+	0% {opacity: 0;}
+	100%{opacity:1;
+}
+}
+
+.profile {
+    float: right;
+}
+
+.profile .content {
+    height: 140px;
+    width: 140px;
+    position: relative;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 104px;
+    height: 104px;
+    margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    bottom: 0;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.name {
+    text-align: center;
+    max-width: 880px;
+    min-width: 200px;
+    box-sizing: border-box;
+    background-color: #0D1117;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    color: #999996;
+    font-size: 2.25rem;
+    font-weight: 700;
+    
+}
+
+.me {
+    width: 400px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #EAEAEA;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .6);
+    margin-top: 2.1rem;
+
+}
+
+.social {
+    min-width: 437px;
+    margin-left: 40px;
+    margin-top: 48px;
+}
+
+.mysocial {
+    width: 1.5rem;
+    font-size: 1.75rem;
+    margin-right: 0.9rem;
+    height: 2rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: -webkit-inline-box;
+    display: inline-flex;
+}
+
+.footer {
+    color: #FFD602;
+    position:absolute;
+    bottom:0;
+    width:90%;
+    height:100px;
+    text-align: center;
+    margin-bottom: 248px;
+	animation: anim 2s;
+}
+
+.myname {
+    padding: 4px 8px;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #333;
+    background: #FFD602;
+    border-radius: .25rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 
+    0 4px 6px -2px rgba(0,0,0,.05);
+
+}
