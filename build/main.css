@@ -1,0 +1,32 @@
+@media (prefers-color-scheme: dark) {
+    body {
+      background: #333;
+      color: #999;
+    }
+
+    .profile {
+        background-color: #444444;
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mysocial {
+    width: 1.5rem;
+    font-size: 1.75rem;
+    margin-right: 0.9rem;
+    height: 2rem;
+}
