@@ -2,10 +2,13 @@
     <head>
         <title>XYZ1024</title>
         <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport;" />
         <link rel="shortcut icon" href="https://i.loli.net/2021/03/29/ohfrKekPvgi56uN.png">
         <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
         <link rel="stylesheet" href="build/main.css">
         <link rel="stylesheet" href="build/tailwind.css">
+        <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+        <script type="application/javascript" src="post.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-JYMR8L132Y"></script>
         <script>
@@ -17,24 +20,30 @@
         </script>
     </head>
     <body>
-      <div class="wrapper">
-      <div class="flex profile bg-gray-200 max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl relative">
-        <div class="md:flex-shrink-0">
-          <img class="h-52 w-full object-cover md:w-48" src="https://i.loli.net/2021/03/29/i98swmKVNnS1MFc.jpg" alt="avatar">
+      <div class="pt-20 flex h-2/4 items-center max-w-xl mx-auto">
+        <div class="max-w-md mx-auto profile bg-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="md:flex">
+            <div class="md:flex-shrink-0">
+              <img class="h-56 w-full object-cover md:w-48" src="https://i.loli.net/2021/03/29/i98swmKVNnS1MFc.jpg" alt="XYZ1024">
+            </div>
+            <div class="p-8">
+              <div class="uppercase tracking-wide text-4xl font-bold">XYZ1024</div>
+              <p class="mt-2 text-gray-400">15 years old, a student and developer.</p>
+              <div class="social w-96 p-6">
+                <a href="mailto:i@xyz1024.xyz" target="_blank" class="mysocial"><i class="fa fa-envelope-o"></i></a>
+                <a href="https://github.com/XYZ1024-alt" target="_blank" class="mysocial"><i class="fa fa-github"></i></a>
+                <a href="https://twitter.com/H3XV5erSza24q07" target="_blank" class="mysocial"><i class="fa fa-twitter"></i></a>
+                <a href="https://t.me/jhx1024" target="_blank" class="mysocial"><i class="fa fa-telegram"></i></a>
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=486483978&amp;site=qq&amp;menu=yes" target="_blank" class="mysocial"><i class="fa fa-qq"></i></a>
+                <a href="https://xyz1024.top/" target="_blank" class="mysocial"><i class="fa fa-book"></i></a>
+            </div>
+            </div>
+          </div>
         </div>
-        <div class="p-8">
-          <div class="uppercase tracking-wide text-4xl font-bold">XYZ1024</div>
-          <p class="mt-2 text-gray-400">15 years old, a student and developer.</p>
+      </div>
+        <div class="md:mt-0 mt-20 text-center w-80 mx-auto profile bg-gray-200 rounded-md shadow-md overflow-hidden md:max-w-2xl">
+          <p class="text-2xl pb-4">最新文章</p>
+          <div id="post"></div>
         </div>
-        <div class="social absolute bottom-10 right-10">
-          <a href="mailto:i@xyz1024.xyz" target="_blank" class="mysocial"><i class="fa fa-envelope-o"></i></a>
-          <a href="https://github.com/XYZ1024-alt" target="_blank" class="mysocial"><i class="fa fa-github"></i></a>
-          <a href="https://twitter.com/H3XV5erSza24q07" target="_blank" class="mysocial"><i class="fa fa-twitter"></i></a>
-          <a href="https://t.me/jhx1024" target="_blank" class="mysocial"><i class="fa fa-telegram"></i></a>
-          <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=486483978&amp;site=qq&amp;menu=yes" target="_blank" class="mysocial"><i class="fa fa-qq"></i></a>
-          <a href="https://xyz1024.top/" target="_blank" class="mysocial"><i class="fa fa-book"></i></a>
-      </div>
-      </div>
-    </div>
     </body>
 </html>
