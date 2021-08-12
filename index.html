@@ -17,6 +17,14 @@
           gtag('js', new Date());
 
           gtag('config', 'G-JYMR8L132Y');
+
+          $(document).ready(function() {
+              $.getJSON("https://api.ip.sb/jsonip?callback=?",
+                  function(json) {
+                      $("#ip").text("你的IP是"+json.ip);
+                  }
+              );
+          });
         </script>
     </head>
     <body>
@@ -24,7 +32,7 @@
         <div class="max-w-md mx-auto profile bg-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
           <div class="md:flex">
             <div class="md:flex-shrink-0">
-              <img class="h-56 w-full object-cover md:w-48" src="https://i.loli.net/2021/03/29/i98swmKVNnS1MFc.jpg" alt="XYZ1024">
+              <img class="h-60 w-full object-cover md:w-48" src="https://i.loli.net/2021/03/29/i98swmKVNnS1MFc.jpg" alt="XYZ1024">
             </div>
             <div class="p-8">
               <div class="uppercase tracking-wide text-4xl font-bold">XYZ1024</div>
@@ -37,12 +45,13 @@
                 <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=486483978&amp;site=qq&amp;menu=yes" target="_blank" class="mysocial"><i class="fa fa-qq"></i></a>
                 <a href="https://xyz1024.top/" target="_blank" class="mysocial"><i class="fa fa-book"></i></a>
             </div>
+            <span id="ip" class="ml-10 h-2/4 text-xl"></span>
             </div>
           </div>
         </div>
       </div>
         <div class="md:mt-0 mt-20 text-center w-80 mx-auto profile bg-gray-200 rounded-md shadow-md overflow-hidden md:max-w-2xl">
-          <p class="text-2xl pb-4">最新文章</p>
+          <p class="text-xl pt-4 pb-4">最新文章</p>
           <div id="post" class="text-gray-400 pb-4"></div>
         </div>
     </body>
