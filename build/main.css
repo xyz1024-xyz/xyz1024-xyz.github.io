@@ -1,7 +1,9 @@
 @media (prefers-color-scheme: dark) {
     body {
-      background: #333;
-      color: #999;
+        width: 100%;
+        text-align: center;
+        background: #333;
+        color: #999;
     }
 
     .profile {
